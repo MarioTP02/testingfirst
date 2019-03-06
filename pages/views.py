@@ -9,3 +9,6 @@ def homePageView(request):
 
 def kPageView(request):
     return HttpResponse('k')
+
+def aPageView(request):
+    return HttpResponse('a')
